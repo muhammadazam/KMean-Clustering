@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <script src="https://cdn.plot.ly/plotly-2.24.1.min.js" charset="utf-8"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/index.css"/> 
+    </head>
+    <body>
+        <div id="scatter-plot"></div>
+        <div id="steps-div">
+            <div>
+                <label>Data Points</label>
+                <input type="number" id="randomPointsCount" value="100" style="width:60px"/>
+            </div>
+            <div>
+                <label>Clusters Count</label>
+                <input type="number" id="clustersCount" value="2" style="width:60px"/>
+            </div>
+            <div>
+                <button id="btnNext" onclick="nextStep();">Next</button>
+                <button id="btnReset"onclick="reset();">Reset</button>
+            </div>
+            <div>
+                <ul id="steps">
+                </ul>    
+            </div>
+        </div>
+
+        <script src="js/data.js"></script>
+        <script src="js/kmean.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+body{  
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+}
+
+#scatter-plot {
+  border: 1px solid black;
+  float: right;
+  width: 75%;
+  height: 100%;
+}
+
+#steps-div {
+  float: left;
+  width: 24%;
+  height: 100%;
+  border: 1px solid black;
+  overflow-y: auto;
+}
+
+#steps-div>div {
+  margin: 2px;
+}
