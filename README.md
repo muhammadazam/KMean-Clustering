@@ -7,4 +7,5 @@
 4. js\data.js: Sample data
 
 ## Sample Output:
-![image](https://github.com/muhammadazam/KMean-Clustering/assets/568802/37bd8168-2173-42ef-b44a-886ea4e05b17)
+
+![image](https://github.com/muhammadazam/KMean-Clustering/assets/568802/10d0db60-ac4f-4456-8701-9672e65b7ba9)
